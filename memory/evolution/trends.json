@@ -1,0 +1,240 @@
+{
+  "entries": [
+    {
+      "type": "evolution",
+      "knowledge": {
+        "fetchedAt": "2026-06-18T09:38:29.854Z",
+        "totalFetched": 50,
+        "relevantCount": 25,
+        "trends": [
+          {
+            "title": "The Australian Government to Require SMS/MMS Sender ID Registraion",
+            "url": "https://www.acma.gov.au/sms-sender-id-register",
+            "source": "Hacker News",
+            "score": 93,
+            "timestamp": "2026-06-18T06:23:24.000Z",
+            "relevance": 20
+          },
+          {
+            "title": "Lore – Open source version control system designed for scalability",
+            "url": "https://lore.org/",
+            "source": "Hacker News",
+            "score": 1132,
+            "timestamp": "2026-06-17T14:30:27.000Z",
+            "relevance": 10
+          },
+          {
+            "title": "US holds off blacklisting DeepSeek, more than 100 firms deemed security risks",
+            "url": "https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/",
+            "source": "Hacker News",
+            "score": 457,
+            "timestamp": "2026-06-17T03:55:16.000Z",
+            "relevance": 10
+          },
+          {
+            "title": "Clojure Hosted on Go",
+            "url": "https://github.com/glojurelang/glojure",
+            "source": "Hacker News",
+            "score": 134,
+            "timestamp": "2026-06-17T23:14:49.000Z",
+            "relevance": 10
+          },
+          {
+            "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
+            "url": "https://github.com/Adam-CAD/CADAM",
+            "source": "Hacker News",
+            "score": 183,
+            "timestamp": "2026-06-17T16:14:04.000Z",
+            "relevance": 10
+          },
+          {
+            "title": "AI Compute Extensions (ACE) Specification",
+            "url": "https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/",
+            "source": "Hacker News",
+            "score": 36,
+            "timestamp": "2026-06-18T02:32:01.000Z",
+            "relevance": 10
+          },
+          {
+            "title": "DietrichGebert/ponytail: Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+            "url": "https://github.com/DietrichGebert/ponytail",
+            "source": "GitHub Trending",
+            "score": 33841,
+            "language": "JavaScript",
+            "timestamp": "2026-06-12T00:52:37Z",
+            "relevance": 30
+          },
+          {
+            "title": "tamnd/kage: Shadow any website for offline viewing, with the JavaScript stripped out",
+            "url": "https://github.com/tamnd/kage",
+            "source": "GitHub Trending",
+            "score": 1918,
+            "language": "Go",
+            "timestamp": "2026-06-14T11:21:55Z",
+            "relevance": 30
+          },
+          {
+            "title": "lenucksi/aur-malware-check: Detection tools for the June 2026 atomic-lockfile AUR supply-chain attack. Consolidated from community Gists.",
+            "url": "https://github.com/lenucksi/aur-malware-check",
+            "source": "GitHub Trending",
+            "score": 1492,
+            "language": "Shell",
+            "timestamp": "2026-06-12T13:17:07Z",
+            "relevance": 10
+          },
+          {
+            "title": "EEliberto/IPA-Download: 一款用于安装 IPA 历史版本的工具，适用于获取旧版应用并自动捕获数据包。下载后，可直接通过 AirDrop 传输至 iPhone、iPad 上并安装并使用。",
+            "url": "https://github.com/EEliberto/IPA-Download",
+            "source": "GitHub Trending",
+            "score": 1046,
+            "language": "Swift",
+            "timestamp": "2026-06-13T08:32:39Z",
+            "relevance": 10
+          },
+          {
+            "title": "vercel/eve: The Framework for Building Agents",
+            "url": "https://github.com/vercel/eve",
+            "source": "GitHub Trending",
+            "score": 1039,
+            "language": "TypeScript",
+            "timestamp": "2026-06-16T10:51:20Z",
+            "relevance": 30
+          },
+          {
+            "title": "orange2ai/renwei-writing: 人味儿写作 · An AI agent skill: edit people's words without erasing the person behind them",
+            "url": "https://github.com/orange2ai/renwei-writing",
+            "source": "GitHub Trending",
+            "score": 795,
+            "language": null,
+            "timestamp": "2026-06-12T21:45:48Z",
+            "relevance": 20
+          },
+          {
+            "title": "nolangz/pixel2motion: AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motion QA evidence.",
+            "url": "https://github.com/nolangz/pixel2motion",
+            "source": "GitHub Trending",
+            "score": 754,
+            "language": "Python",
+            "timestamp": "2026-06-12T04:25:17Z",
+            "relevance": 30
+          },
+          {
+            "title": "alchaincyf/loop-engineering-orange-book: 别再问我什么是 Loop Engineering — 橙皮书系列。A plain-language guide to loop engineering (中文 + English PDF). Free.",
+            "url": "https://github.com/alchaincyf/loop-engineering-orange-book",
+            "source": "GitHub Trending",
+            "score": 655,
+            "language": null,
+            "timestamp": "2026-06-15T05:27:07Z",
+            "relevance": 10
+          },
+          {
+            "title": "vorssaint/vorssaint-utils: Vorssaint macOS app",
+            "url": "https://github.com/vorssaint/vorssaint-utils",
+            "source": "GitHub Trending",
+            "score": 621,
+            "language": "Swift",
+            "timestamp": "2026-06-12T15:25:43Z",
+            "relevance": 10
+          },
+          {
+            "title": "SunJaycy/GoldenEye-Recomp: No description",
+            "url": "https://github.com/SunJaycy/GoldenEye-Recomp",
+            "source": "GitHub Trending",
+            "score": 544,
+            "language": "C",
+            "timestamp": "2026-06-12T16:07:27Z",
+            "relevance": 10
+          },
+          {
+            "title": "DanMcInerney/architect-loop: Claude Fable 5 as architect, GPT-5.5 Codex as builder, the repo as memory - a research-backed Claude Code skill for the cross-vendor agent loop",
+            "url": "https://github.com/DanMcInerney/architect-loop",
+            "source": "GitHub Trending",
+            "score": 504,
+            "language": "HTML",
+            "timestamp": "2026-06-12T01:54:12Z",
+            "relevance": 30
+          },
+          {
+            "title": "Plaer1/junction: VS Code chat sidebar for local AI coding agents",
+            "url": "https://github.com/Plaer1/junction",
+            "source": "GitHub Trending",
+            "score": 504,
+            "language": "TypeScript",
+            "timestamp": "2026-06-17T05:27:09Z",
+            "relevance": 30
+          },
+          {
+            "title": "fguzman82/gateGPT: Full Transformer into a custom chip. microGPT in RTL, generating names on a Virtex-5 FPGA at ~56k tokens/second.",
+            "url": "https://github.com/fguzman82/gateGPT",
+            "source": "GitHub Trending",
+            "score": 492,
+            "language": "Verilog",
+            "timestamp": "2026-06-12T14:55:53Z",
+            "relevance": 10
+          },
+          {
+            "title": "mrtooher/fable-mode: A Claude skill that activates Fable-style agentic behavior: explicit multi-stage planning, sub-agent delegation, and self-verification.",
+            "url": "https://github.com/mrtooher/fable-mode",
+            "source": "GitHub Trending",
+            "score": 482,
+            "language": null,
+            "timestamp": "2026-06-13T05:33:14Z",
+            "relevance": 20
+          },
+          {
+            "title": "Waishnav/devspace: Turn ChatGPT into Codex",
+            "url": "https://github.com/Waishnav/devspace",
+            "source": "GitHub Trending",
+            "score": 460,
+            "language": "TypeScript",
+            "timestamp": "2026-06-14T16:57:27Z",
+            "relevance": 30
+          },
+          {
+            "title": "fivetaku/fablize: A Claude Code plugin that makes Opus behave like Fable — completion, evidence, and verification enforced as procedure. Ships only what a Fable-vs-Opus comparison proved transferable.",
+            "url": "https://github.com/fivetaku/fablize",
+            "source": "GitHub Trending",
+            "score": 459,
+            "language": "Shell",
+            "timestamp": "2026-06-14T05:49:06Z",
+            "relevance": 10
+          },
+          {
+            "title": "royalbhati/sqltoerdiagram: ER diagram generator. Paste CREATE TABLE statements and get a clean, interactive ERD — runs 100% in your browser, nothing uploaded",
+            "url": "https://github.com/royalbhati/sqltoerdiagram",
+            "source": "GitHub Trending",
+            "score": 455,
+            "language": "JavaScript",
+            "timestamp": "2026-06-14T04:12:26Z",
+            "relevance": 10
+          },
+          {
+            "title": "NO6KIKO/gorest-2d-animation-spritesheet-generator: Codex-assisted local 2D animation spritesheet generator and scene compositing workspace.",
+            "url": "https://github.com/NO6KIKO/gorest-2d-animation-spritesheet-generator",
+            "source": "GitHub Trending",
+            "score": 404,
+            "language": "TypeScript",
+            "timestamp": "2026-06-12T00:46:23Z",
+            "relevance": 20
+          },
+          {
+            "title": "Nanako0129/coralline: 🪸 Powerlevel10k-inspired statusline for Claude Code — paste one prompt and your AI interviews you, then installs it",
+            "url": "https://github.com/Nanako0129/coralline",
+            "source": "GitHub Trending",
+            "score": 362,
+            "language": "Shell",
+            "timestamp": "2026-06-12T07:44:56Z",
+            "relevance": 20
+          }
+        ]
+      },
+      "timestamp": "2026-06-18T09:38:29.854Z",
+      "id": "evolution-evolution-1781775509854"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-18T09:38:29.854Z",
+    "version": 2,
+    "lastUpdated": "2026-06-18T09:38:29.854Z"
+  }
+}

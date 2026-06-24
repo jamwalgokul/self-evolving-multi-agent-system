@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "type": "evolution",
+      "knowledge": {
+        "title": "lenucksi/aur-malware-check: Detection tools for the June 2026 atomic-lockfile AUR supply-chain attack. Consolidated from community Gists.",
+        "url": "https://github.com/lenucksi/aur-malware-check",
+        "type": "new-framework-awareness",
+        "source": "GitHub Trending"
+      },
+      "timestamp": "2026-06-18T09:38:31.312Z",
+      "id": "locator-evolution-1781775511312"
+    },
+    {
+      "type": "evolution",
+      "knowledge": {
+        "title": "vercel/eve: The Framework for Building Agents",
+        "url": "https://github.com/vercel/eve",
+        "type": "new-framework-awareness",
+        "source": "GitHub Trending"
+      },
+      "timestamp": "2026-06-18T09:38:31.313Z",
+      "id": "locator-evolution-1781775511313"
+    },
+    {
+      "type": "evolution",
+      "knowledge": {
+        "title": "alchaincyf/loop-engineering-orange-book: 别再问我什么是 Loop Engineering — 橙皮书系列。A plain-language guide to loop engineering (中文 + English PDF). Free.",
+        "url": "https://github.com/alchaincyf/loop-engineering-orange-book",
+        "type": "new-framework-awareness",
+        "source": "GitHub Trending"
+      },
+      "timestamp": "2026-06-18T09:38:31.313Z",
+      "id": "locator-evolution-1781775511313"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-18T09:38:31.312Z",
+    "version": 4,
+    "lastUpdated": "2026-06-18T09:38:31.313Z"
+  }
+}

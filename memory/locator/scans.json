@@ -1,0 +1,20 @@
+{
+  "entries": [
+    {
+      "directory": "C:\\Users\\Gokul\\OneDrive\\Desktop\\AI-WORKSPACE\\AI-WORKSPACE\\projects\\sample-app",
+      "filesScanned": 2,
+      "issuesFound": 27,
+      "projectTypes": [
+        "nodejs"
+      ],
+      "confidence": 75,
+      "timestamp": "2026-06-18T09:37:59.705Z",
+      "id": "locator-scans-1781775479705"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-18T09:37:59.705Z",
+    "version": 2,
+    "lastUpdated": "2026-06-18T09:37:59.705Z"
+  }
+}

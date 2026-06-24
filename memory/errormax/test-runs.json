@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "directory": "C:\\Users\\Gokul\\OneDrive\\Desktop\\AI-WORKSPACE\\AI-WORKSPACE\\projects\\sample-app",
+      "stabilityScore": 88,
+      "errorsFound": 2,
+      "testsRun": 1,
+      "buildSuccess": true,
+      "timestamp": "2026-06-18T09:37:59.711Z",
+      "id": "errormax-test-runs-1781775479711"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-18T09:37:59.711Z",
+    "version": 2,
+    "lastUpdated": "2026-06-18T09:37:59.711Z"
+  }
+}

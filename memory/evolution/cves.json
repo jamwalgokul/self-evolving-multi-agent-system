@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "type": "evolution",
+      "knowledge": {
+        "fetchedAt": "2026-06-18T09:38:31.308Z",
+        "totalFetched": 0,
+        "cves": []
+      },
+      "timestamp": "2026-06-18T09:38:31.308Z",
+      "id": "evolution-evolution-1781775511308"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-18T09:38:31.308Z",
+    "version": 2,
+    "lastUpdated": "2026-06-18T09:38:31.308Z"
+  }
+}

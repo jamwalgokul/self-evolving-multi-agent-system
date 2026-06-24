@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI-WORKSPACE — Self-Evolving Multi-Agent Command Center with real-time dashboards for code analysis, security auditing, and autonomous evolution monitoring.">
+  <title>AI-WORKSPACE — Agent Command Center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="bg-glow bg-glow-3"></div>
+
+  <!-- Sidebar Navigation -->
+  <nav id="sidebar" class="sidebar">
+    <div class="sidebar-brand">
+      <div class="brand-icon">🤖</div>
+      <div class="brand-text">
+        <h1>AI-WORKSPACE</h1>
+        <span class="brand-version">v1.0 — Self-Evolving</span>
+      </div>
+    </div>
+
+    <div class="nav-section">
+      <span class="nav-label">COMMAND CENTER</span>
+      <a href="#" class="nav-item active" data-section="dashboard" id="nav-dashboard">
+        <span class="nav-icon">📊</span>
+        <span>Dashboard</span>
+      </a>
+      <a href="#" class="nav-item" data-section="agents" id="nav-agents">
+        <span class="nav-icon">🤖</span>
+        <span>Agents</span>
+      </a>
+      <a href="#" class="nav-item" data-section="reports" id="nav-reports">
+        <span class="nav-icon">📄</span>
+        <span>Reports</span>
+      </a>
+    </div>
+
+    <div class="nav-section">
+      <span class="nav-label">INTELLIGENCE</span>
+      <a href="#" class="nav-item" data-section="evolution" id="nav-evolution">
+        <span class="nav-icon">🧬</span>
+        <span>Evolution Feed</span>
+      </a>
+      <a href="#" class="nav-item" data-section="knowledge" id="nav-knowledge">
+        <span class="nav-icon">📚</span>
+        <span>Knowledge Base</span>
+      </a>
+    </div>
+
+    <div class="sidebar-footer">
+      <div class="status-indicator" id="system-status">
+        <div class="status-dot status-online"></div>
+        <span>System Online</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content Area -->
+  <main id="main-content" class="main-content">
+
+    <!-- Top Bar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <button id="sidebar-toggle" class="sidebar-toggle" aria-label="Toggle sidebar">☰</button>
+        <h2 id="page-title" class="page-title">Dashboard</h2>
+      </div>
+      <div class="topbar-right">
+        <button id="btn-evolve" class="btn btn-glow btn-evolve">
+          <span class="btn-icon">🧬</span>
+          <span>Evolve Now</span>
+        </button>
+        <button id="btn-fullstack-run" class="btn btn-primary">
+          <span class="btn-icon">🚀</span>
+          <span>Full-Stack Run</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Section: Dashboard -->
+    <section id="section-dashboard" class="section active">
+      <!-- Stats Row -->
+      <div class="stats-grid">
+        <div class="stat-card" id="stat-health">
+          <div class="stat-icon">💚</div>
+          <div class="stat-info">
+            <span class="stat-label">Overall Health</span>
+            <span class="stat-value" id="val-health">—</span>
+          </div>
+          <div class="stat-glow stat-glow-green"></div>
+        </div>
+        <div class="stat-card" id="stat-bugs">
+          <div class="stat-icon">🐛</div>
+          <div class="stat-info">
+            <span class="stat-label">Issues Found</span>
+            <span class="stat-value" id="val-bugs">—</span>
+          </div>
+          <div class="stat-glow stat-glow-yellow"></div>
+        </div>
+        <div class="stat-card" id="stat-security">
+          <div class="stat-icon">🛡️</div>
+          <div class="stat-info">
+            <span class="stat-label">Security Risk</span>
+            <span class="stat-value" id="val-security">—</span>
+          </div>
+          <div class="stat-glow stat-glow-purple"></div>
+        </div>
+        <div class="stat-card" id="stat-evolution">
+          <div class="stat-icon">🧬</div>
+          <div class="stat-info">
+            <span class="stat-label">Last Evolution</span>
+            <span class="stat-value" id="val-evolution">—</span>
+          </div>
+          <div class="stat-glow stat-glow-cyan"></div>
+        </div>
+      </div>
+
+      <!-- Agent Cards -->
+      <h3 class="section-heading">Agent Status</h3>
+      <div class="agents-grid">
+        <div class="agent-card" id="card-locator">
+          <div class="agent-header">
+            <div class="agent-avatar agent-avatar-locator">🔍</div>
+            <div class="agent-title">
+              <h4>Locator</h4>
+              <span class="agent-role">Code Analysis & Bug Detection</span>
+            </div>
+            <div class="agent-status-badge" id="badge-locator">Idle</div>
+          </div>
+          <div class="agent-stats">
+            <div class="agent-stat"><span class="agent-stat-label">Memory</span><span class="agent-stat-value" id="mem-locator">0 entries</span></div>
+            <div class="agent-stat"><span class="agent-stat-label">Last Run</span><span class="agent-stat-value" id="last-locator">Never</span></div>
+          </div>
+          <button class="btn btn-sm btn-outline" onclick="runAgent('locator')">Run Scan</button>
+        </div>
+
+        <div class="agent-card" id="card-errormax">
+          <div class="agent-header">
+            <div class="agent-avatar agent-avatar-errormax">🐛</div>
+            <div class="agent-title">
+              <h4>ErrorMax</h4>
+              <span class="agent-role">Runtime Testing & Debugging</span>
+            </div>
+            <div class="agent-status-badge" id="badge-errormax">Idle</div>
+          </div>
+          <div class="agent-stats">
+            <div class="agent-stat"><span class="agent-stat-label">Memory</span><span class="agent-stat-value" id="mem-errormax">0 entries</span></div>
+            <div class="agent-stat"><span class="agent-stat-label">Last Run</span><span class="agent-stat-value" id="last-errormax">Never</span></div>
+          </div>
+          <button class="btn btn-sm btn-outline" onclick="runAgent('errormax')">Run Tests</button>
+        </div>
+
+        <div class="agent-card" id="card-securemax">
+          <div class="agent-header">
+            <div class="agent-avatar agent-avatar-securemax">🛡️</div>
+            <div class="agent-title">
+              <h4>SecureMax</h4>
+              <span class="agent-role">Security Audit & CVE Tracking</span>
+            </div>
+            <div class="agent-status-badge" id="badge-securemax">Idle</div>
+          </div>
+          <div class="agent-stats">
+            <div class="agent-stat"><span class="agent-stat-label">Memory</span><span class="agent-stat-value" id="mem-securemax">0 entries</span></div>
+            <div class="agent-stat"><span class="agent-stat-label">Last Run</span><span class="agent-stat-value" id="last-securemax">Never</span></div>
+          </div>
+          <button class="btn btn-sm btn-outline" onclick="runAgent('securemax')">Run Audit</button>
+        </div>
+
+        <div class="agent-card" id="card-fullmax">
+          <div class="agent-header">
+            <div class="agent-avatar agent-avatar-fullmax">🧠</div>
+            <div class="agent-title">
+              <h4>FullMax</h4>
+              <span class="agent-role">Master Orchestrator & Validator</span>
+            </div>
+            <div class="agent-status-badge" id="badge-fullmax">Idle</div>
+          </div>
+          <div class="agent-stats">
+            <div class="agent-stat"><span class="agent-stat-label">Memory</span><span class="agent-stat-value" id="mem-fullmax">0 entries</span></div>
+            <div class="agent-stat"><span class="agent-stat-label">Last Run</span><span class="agent-stat-value" id="last-fullmax">Never</span></div>
+          </div>
+          <button class="btn btn-sm btn-outline" onclick="runAgent('fullmax')">Validate</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Agents (detailed) -->
+    <section id="section-agents" class="section">
+      <h3 class="section-heading">Agent Control Panel</h3>
+      <div class="control-panel">
+        <div class="control-input-group">
+          <label for="target-dir">Target Directory</label>
+          <input type="text" id="target-dir" class="input" placeholder="./projects/myapp" value="./projects">
+        </div>
+        <div class="control-buttons">
+          <button class="btn btn-primary" onclick="runAgent('locator')">🔍 Locator Scan</button>
+          <button class="btn btn-primary" onclick="runAgent('errormax')">🐛 ErrorMax Test</button>
+          <button class="btn btn-primary" onclick="runAgent('securemax')">🛡️ SecureMax Audit</button>
+          <button class="btn btn-primary" onclick="runAgent('fullmax')">🧠 FullMax Validate</button>
+          <button class="btn btn-glow" onclick="runFullstack()">🚀 Full-Stack Run</button>
+        </div>
+      </div>
+
+      <div id="agent-output" class="terminal-output" style="display:none;">
+        <div class="terminal-header">
+          <span class="terminal-title">Agent Output</span>
+          <button class="terminal-close" onclick="document.getElementById('agent-output').style.display='none'">✕</button>
+        </div>
+        <pre id="agent-log"></pre>
+      </div>
+    </section>
+
+    <!-- Section: Reports -->
+    <section id="section-reports" class="section">
+      <h3 class="section-heading">Generated Reports</h3>
+      <div class="reports-grid" id="reports-list">
+        <p class="empty-state">No reports yet. Run agents to generate reports.</p>
+      </div>
+      <div id="report-viewer" class="report-viewer" style="display:none;">
+        <div class="report-viewer-header">
+          <h4 id="report-viewer-title"></h4>
+          <button class="btn btn-sm btn-outline" onclick="closeReportViewer()">✕ Close</button>
+        </div>
+        <div id="report-viewer-content" class="report-content"></div>
+      </div>
+    </section>
+
+    <!-- Section: Evolution Feed -->
+    <section id="section-evolution" class="section">
+      <h3 class="section-heading">Evolution Feed</h3>
+      <div class="evolution-controls">
+        <button class="btn btn-glow btn-evolve" onclick="runEvolution()">🧬 Run Evolution Now</button>
+      </div>
+      <div class="evolution-timeline" id="evolution-timeline">
+        <p class="empty-state">No evolution data yet. Run evolution to fetch latest trends and CVEs.</p>
+      </div>
+    </section>
+
+    <!-- Section: Knowledge Base -->
+    <section id="section-knowledge" class="section">
+      <h3 class="section-heading">Agent Knowledge Base</h3>
+      <div class="knowledge-grid" id="knowledge-grid">
+        <p class="empty-state">Knowledge base is empty. Run agents or evolution to populate.</p>
+      </div>
+    </section>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay" style="display:none;">
+      <div class="loading-spinner">
+        <div class="spinner-ring"></div>
+        <p id="loading-text" class="loading-text">Processing...</p>
+      </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "entries": [
+    {
+      "type": "evolution",
+      "knowledge": {
+        "title": "US holds off blacklisting DeepSeek, more than 100 firms deemed security risks",
+        "url": "https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/",
+        "source": "Hacker News"
+      },
+      "timestamp": "2026-06-18T09:38:31.310Z",
+      "id": "securemax-evolution-1781775511310"
+    },
+    {
+      "type": "evolution",
+      "knowledge": {
+        "title": "lenucksi/aur-malware-check: Detection tools for the June 2026 atomic-lockfile AUR supply-chain attack. Consolidated from community Gists.",
+        "url": "https://github.com/lenucksi/aur-malware-check",
+        "source": "GitHub Trending"
+      },
+      "timestamp": "2026-06-18T09:38:31.311Z",
+      "id": "securemax-evolution-1781775511311"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-18T09:38:31.310Z",
+    "version": 3,
+    "lastUpdated": "2026-06-18T09:38:31.311Z"
+  }
+}

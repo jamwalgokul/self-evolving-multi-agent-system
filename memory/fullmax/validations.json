@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "health": "POOR",
+      "riskLevel": "CRITICAL",
+      "recommendation": "❌ DO NOT DEPLOY — Critical issues require immediate attention",
+      "bugs": 27,
+      "stability": 88,
+      "vulns": 8,
+      "timestamp": "2026-06-18T09:38:00.460Z",
+      "id": "fullmax-validations-1781775480460"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-18T09:38:00.460Z",
+    "version": 2,
+    "lastUpdated": "2026-06-18T09:38:00.460Z"
+  }
+}

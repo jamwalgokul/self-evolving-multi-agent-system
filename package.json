@@ -1,0 +1,29 @@
+{
+  "name": "ai-workspace-agents",
+  "version": "1.0.0",
+  "description": "Self-evolving multi-agent system with Locator, ErrorMax, SecureMax, and FullMax",
+  "type": "module",
+  "main": "engine/cli.js",
+  "scripts": {
+    "start": "node engine/cli.js",
+    "scan": "node engine/cli.js locator scan",
+    "test:agent": "node engine/cli.js errormax test",
+    "audit": "node engine/cli.js securemax audit",
+    "validate": "node engine/cli.js fullmax validate",
+    "fullstack-run": "node engine/cli.js fullstack-run",
+    "evolve": "node engine/cli.js evolve",
+    "dashboard": "node dashboard/server.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.0",
+    "glob": "^11.0.0",
+    "marked": "^15.0.0",
+    "node-cron": "^3.0.3",
+    "ora": "^8.1.0"
+  },
+  "keywords": ["ai", "agents", "security", "debugging", "self-evolving"],
+  "author": "AI-WORKSPACE",
+  "license": "MIT"
+}

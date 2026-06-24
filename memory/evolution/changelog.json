@@ -1,0 +1,20 @@
+{
+  "entries": [
+    {
+      "timestamp": "2026-06-18T09:38:31.317Z",
+      "trendsCount": 25,
+      "cvesCount": 0,
+      "agentsUpdated": [
+        "SecureMax",
+        "Locator"
+      ],
+      "summary": "Evolution cycle: 25 trends, 0 CVEs, 2 agents updated",
+      "id": "evolution-changelog-1781775511317"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-18T09:38:31.317Z",
+    "version": 2,
+    "lastUpdated": "2026-06-18T09:38:31.317Z"
+  }
+}
